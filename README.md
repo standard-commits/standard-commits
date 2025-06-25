@@ -42,7 +42,7 @@ The following table summarizes the main advantages of the _Standard Commits_ for
 | Scope Annotation            | 🟢 Yes              | 🟢 Yes               | 🟢 Yes          | 🔴 No          |
 | Reason Annotation           | 🟢 Yes              | 🔴 No                | 🟡 Partially    | 🔴 No          |
 | Importance Levels           | 🟢 Yes              | 🟡 Partially         | 🟡 Partially    | 🔴 No          |
-| Expressiveness-Lenght ratio | 🟢 High             | 🟡 Medium            | 🟣 Top          | 🔴 Low         |
+| Expressiveness-Length ratio | 🟢 High             | 🟡 Medium            | 🟣 Top          | 🔴 Low         |
 | Concision                   | 🔴 Low              | 🟡 Medium            | 🟢 High         | 🟣 Top         |
 
 
@@ -72,14 +72,14 @@ Each commit MUST have a `<verb>` and a `<summary>` but all the other fields are 
 |`ref` (_refactor_)     | `!!`(_critical_)          | `test` (_testing_)            | `eff` (_efficiency_)      |
 |`fix` (_fix_)          |                           | `build` (_building_)          | `rel` (_reliability_)     |
 |`undo` (_undo_)        |                           | `doc` (_documentation_)       | `cmp` (_compatibility_)   |
-| `release` (_release_) |                           | `ci` (continuous integration) | `mnt` (_maintanance_)     |
+| `release` (_release_) |                           | `ci` (continuous integration) | `mnt` (_maintenance_)     |
 |                       |                           | `cd` (continuous delivery)    | `tmp` (_temporary_)       |
 |                       |                           |                               | `exp` (_experiment_)      |
 |                       |                           |                               | `sec` (_security_)        |
 |                       |                           |                               | `upg` (_upgrade_)         |
 |                       |                           |                               | `ux`  (_user experience_) |
 |                       |                           |                               | `pol` (_policy_)          |
-|                       |                           |                               | `sty` (_styiling_)        |
+|                       |                           |                               | `sty` (_styling_)        |
 
 |📝 summary|ℹ️ body|⚙️ footer|
 |-|-|-|
@@ -315,7 +315,7 @@ The reasons identifiers include:
 - 🧩 `cmp` (_compatibility_)    : Improves backward or cross-platform compatibility
   > E.g., supports older APIs, avoids breaking changes.
 
-- 🛠️ `mnt` (_maintanance_)      : Improves maintainability
+- 🛠️ `mnt` (_maintenance_)      : Improves maintainability
   > E.g., refactor code, simplifies the structure, removes dead code, and improves modularity.
 
 - ⌛ `tmp` (_temporary_)        : Temporary workaround or shortcut
@@ -336,7 +336,7 @@ The reasons identifiers include:
 - 📑 `pol` (_policy_)           : Enforces a policy
   > E.g., legal compliance, internal coding standards, external specs.
 
-- 💄 `sty` (_styiling_)       : Changes formatting, naming, layout, or any purely cosmetic characteristic
+- 💄 `sty` (_styling_)       : Changes formatting, naming, layout, or any purely cosmetic characteristic
   > E.g., no semantic change.
 
 ## Unstructured fragment
