@@ -141,7 +141,7 @@ The _Standard Commits_ format provides a set of predefined verbs to ensure consi
    ```
 
    <details>
-   <summary> <i>Adhearing details - <b>fix</b></i> </summary>
+   <summary> <i>Compliance details - <b>fix</b></i> </summary>
 
    The [`<reason>`](#reason) field MUST reflect the issue addressed by the fix.
    > E.g., in the example provided the [`<reason>`](#reason) is `[rel]` since it fixes reliability requirements that were believed to be satisfied.
@@ -156,7 +156,7 @@ The _Standard Commits_ format provides a set of predefined verbs to ensure consi
    ```
 
    <details>
-   <summary> <i>Adhearing details - <b>undo</b></i> </summary>
+   <summary> <i>Compliance details - <b>undo</b></i> </summary>
 
    - MUST prefer `undo` over `add` or `rem` if the changes to revert are perfectly covered by some commits.
    - MUST prefer `ref` or `fix` over `undo` if the expectations SHALL remain unchanged
@@ -172,7 +172,7 @@ The _Standard Commits_ format provides a set of predefined verbs to ensure consi
     release: v1.2.0
     ```
     <details>
-    <summary> <i>Adhearing details - <b>release</b></i> </summary>
+    <summary> <i>Compliance details - <b>release</b></i> </summary>
 
     1. Use `release` when officially publishing a version — such as tagging a release, deploying, or pushing to a package registry.
 
@@ -185,7 +185,7 @@ The _Standard Commits_ format provides a set of predefined verbs to ensure consi
 ### <a id="importance"></a>\<importance> [OPTIONAL]
 
 <details>
-<summary> <i>Adhearing details - <b>omission</b></i> </summary>
+<summary> <i>Compliance details - <b>omission</b></i> </summary>
 
 Implies the change MUST NOT be particularly relevant for maintainers or users.
 </details>
@@ -240,7 +240,7 @@ This field is a marker that is intended to be applied only to specific commits t
 ### <a id="scope"></a>\<scope> [OPTIONAL]
 
 <details>
-<summary> <i>Adhearing details - <b>omission</b></i> </summary>
+<summary> <i>Compliance details - <b>omission</b></i> </summary>
 
 - Implies the change MUST affect the entire repository.
 - Implies the enclosing parenthesis `()` MUST be omitted as well.
@@ -248,7 +248,7 @@ This field is a marker that is intended to be applied only to specific commits t
 
 <details>
 
-<summary> <i>Adhearing details - <b>customization</b></i> </summary>
+<summary> <i>Compliance details - <b>customization</b></i> </summary>
 
 _Standard Commits_ does not impose any specific identifier for the scope, but it is RECOMMENDED to use a consistent naming convention throughout the project. Guidelines for naming scopes include:
 
@@ -287,7 +287,7 @@ Suggestions for common prefix identifiers include:
 ### <a id="reason"></a>\<reason> [OPTIONAL]
 
 <details>
-<summary> <i>Adhearing details - <b>omission</b></i> </summary>
+<summary> <i>Compliance details - <b>omission</b></i> </summary>
 
 - Implies the reason for the change MUST not be any of the "standards".
 - Implies the enclosing brackets `[]` MUST be omitted as well.
@@ -375,7 +375,7 @@ To ensure clarity, consistency, and compatibility across tooling, the commit hea
 ### <a id="body"></a>\<body> [OPTIONAL]
 
 <details>
-<summary> <i>Adhearing details - <b>omission</b></i> </summary>
+<summary> <i>Compliance details - <b>omission</b></i> </summary>
 
 Implies that if the [\<body>](#body) is omitted, and the [\<footer>](#footer) is also omitted, then the blank line that would normally separate [\<summary>](#summary) and [\<body>](#body) SHOULD be omitted as well.
 
@@ -396,7 +396,7 @@ It MUST follow these rules:
 ### <a id="footer"></a>\<footer> [OPTIONAL]
 
 <details>
-<summary> <i>Adhearing details - <b>omission</b></i> </summary>
+<summary> <i>Compliance details - <b>omission</b></i> </summary>
 
 Implies the blank line separating "\<body>-\<footer>" SHOULD be omitted.
 </details>
